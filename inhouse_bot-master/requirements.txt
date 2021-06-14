@@ -1,0 +1,40 @@
+# Keeping requirements in a file for readability
+# This is only *production* requirements, dev requirements (pytest) are in the Dockerfile
+
+# The main package
+discord-py
+
+# ORM for our data storage flow
+sqlalchemy
+
+# The backend for our matchmaking
+trueskill
+
+# Nice tables (might be obsolete now)
+tabulate
+
+# Fuzzy string matching
+rapidfuzz==0.12.5
+
+# Inflecting numerals
+inflect
+
+# Understanding dates
+dateparser
+
+# Fun plots
+# TODO Make a build without it (will be more than 100Mb lighter)
+matplotlib
+mplcyberpunk
+
+# Fuzzy matching and LoL IDs tools
+lol-id-tools
+
+# PostgreSQL driver
+psycopg2
+
+# Beautiful Discord menus
+git+https://github.com/Rapptz/discord-ext-menus
+
+# Pretty help
+discord-pretty-help
