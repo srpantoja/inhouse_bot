@@ -151,3 +151,5 @@ inhouse_bot_old/tests/local_db_sandbox.py
 # Ignoring sqlite db
 data/
 *.db
+
+.docker-compose.yml
